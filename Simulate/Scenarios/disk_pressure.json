@@ -1,0 +1,15 @@
+{
+  "_description": "Disk pressure building across Docker host and agent — tests disk alert thresholds with per-container overrides in play.",
+  "_tags": ["disk", "storage", "ct120", "ct900"],
+  "overrides": {
+    "CT120": {
+      "disk_percent": 88.0
+    },
+    "CT900": {
+      "disk_percent": 82.0
+    },
+    "CT113": {
+      "disk_percent": 91.0
+    }
+  }
+}

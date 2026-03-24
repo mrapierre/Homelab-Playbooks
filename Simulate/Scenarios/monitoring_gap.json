@@ -1,0 +1,12 @@
+{
+  "_description": "Cloudflared and the agent container itself both stop — tests whether external access and monitoring would both be lost simultaneously.",
+  "_tags": ["cloudflared", "ct900", "monitoring-gap"],
+  "overrides": {
+    "CT113": {
+      "status": "stopped"
+    },
+    "CT900": {
+      "status": "stopped"
+    }
+  }
+}

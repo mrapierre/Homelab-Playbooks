@@ -1,0 +1,18 @@
+{
+  "_description": "Worst-case cascade: CT110 OOMs, Docker host thrashing, agent container also under pressure. Tests circuit breaker behaviour.",
+  "_tags": ["cascade", "oom", "circuit-breaker", "stress"],
+  "overrides": {
+    "CT110": {
+      "mem_percent": 97.0,
+      "cpu_percent": 95.0
+    },
+    "CT120": {
+      "mem_percent": 88.0,
+      "cpu_percent": 82.0
+    },
+    "CT900": {
+      "cpu_percent": 88.0,
+      "mem_percent": 72.0
+    }
+  }
+}

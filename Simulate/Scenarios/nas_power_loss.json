@@ -1,0 +1,15 @@
+{
+  "_description": "NAS power loss scenario — all NFS mounts go down simultaneously. Mirrors the February 2026 power cut incident.",
+  "_tags": ["nfs", "nas", "power", "cascade"],
+  "overrides": {
+    "nfs_mounts": {
+      "/mnt/pve/nas/Expanded":  false,
+      "/mnt/pve/nas/Media":     false,
+      "/mnt/pve/nas/Work":      false,
+      "/mnt/pve/nas/Workspace": false
+    },
+    "CT120": {
+      "status": "stopped"
+    }
+  }
+}

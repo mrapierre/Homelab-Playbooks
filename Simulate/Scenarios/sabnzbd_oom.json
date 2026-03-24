@@ -1,0 +1,11 @@
+{
+  "_description": "SABnzbd (CT110) approaching OOM — recreates the real incident from March 2026. Tests whether the agent would have caught it earlier.",
+  "_tags": ["oom", "ct110", "memory", "regression"],
+  "overrides": {
+    "CT110": {
+      "mem_percent": 95.5,
+      "cpu_percent": 78.0,
+      "status": "running"
+    }
+  }
+}

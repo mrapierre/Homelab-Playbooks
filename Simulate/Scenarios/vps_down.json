@@ -1,0 +1,9 @@
+{
+  "_description": "Romanian VPS goes dark — tests the full watchdog + alert cascade.",
+  "_tags": ["vps", "connectivity", "watchdog"],
+  "overrides": {
+    "vps": {
+      "reachable": false
+    }
+  }
+}
